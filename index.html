@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Usuarios</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1>Control de Usuarios</h1>
+    
+    <form id="form">
+        <input type="text" id="name" placeholder="Nombre del usuario" required>
+        <input type="number" id="age" placeholder="Edad" required>
+        <input type="email" id="email" placeholder="Correo electrónico" required>
+        <button type="submit">Crear Usuario</button>
+    </form>
+
+    <div class="user-grid" id="data"></div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
